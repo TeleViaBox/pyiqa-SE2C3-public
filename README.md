@@ -1,4 +1,4 @@
-Author of SE2C3 arch: TeleViaBox
+Author of SE2C3 arch: TeleViaBox (me)
 
 ## Abstract
 
