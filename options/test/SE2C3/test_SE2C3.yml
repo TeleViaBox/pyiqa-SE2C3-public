@@ -1,0 +1,27 @@
+name: 'test_SE2C3'
+model: SE2C3Model
+
+scale: 1
+
+datasets:
+  test:
+    name: 'YourTestDatasetName'
+    type: 'YourDatasetType'
+    dataroot: 'path_to_your_test_data'
+    data_len: 1000
+    batch_size: 1
+    num_workers: 4
+
+network:
+  type: 'SE2C3Net'
+  in_channels: 3
+  num_classes: 1
+
+path:
+  pretrain_network: 'path_to_trained_model'
+  param_key_g: 'params'
+  strict_load: true
+
+logger:
+  print_freq: 10
+  save_image_freq: 10
