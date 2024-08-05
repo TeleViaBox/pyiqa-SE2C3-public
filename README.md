@@ -1,3 +1,5 @@
+Author of SE2C3 arch: TeleViaBox
+
 ## Abstract
 
 Convolutional Neural Networks (CNNs) have been a cornerstone in various fields for many years. Despite their widespread application, several studies have highlighted their limitations in capturing the intricate inner patterns of non-linear systems. While CNNs employ non-linear activation functions to enhance their pattern recognition capabilities, their intrinsic architecture often falls short when dealing with large, complex data structures. Recent research has focused on designing non-linear CNN architectures to address these limitations. However, many of these modified CNN designs overlook crucial aspects, which this work aims to address. The primary contribution of this paper lies in ...
